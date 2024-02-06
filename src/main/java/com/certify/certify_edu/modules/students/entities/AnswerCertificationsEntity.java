@@ -2,6 +2,13 @@ package com.certify.certify_edu.modules.students.entities;
 
 import java.util.UUID;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class AnswerCertificationsEntity {
   private UUID id;
   private UUID certificationId;
