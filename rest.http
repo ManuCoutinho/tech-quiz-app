@@ -1,0 +1,7 @@
+POST http://localhost:8085/students/verify HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "email": "email@email.com"
+}
