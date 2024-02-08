@@ -28,7 +28,7 @@ public class StudentEntity {
   @Column(unique = true, nullable = false)
   private String email;
 
-  @OneToMany(mappedBy = "studentEntity")
+  @OneToMany()
   private List<CertificationsStudentEntity> certificationsStudentEntities;
 
   @CreationTimestamp
