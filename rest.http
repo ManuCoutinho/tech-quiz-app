@@ -2,6 +2,6 @@ POST http://localhost:8085/students/verify HTTP/1.1
 content-type: application/json
 
 {
-    "name": "sample",
+    "technology": "JAVA",
     "email": "email@email.com"
 }
