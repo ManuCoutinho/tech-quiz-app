@@ -12,7 +12,6 @@
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/ManuCoutinho/tech-quizz-app?color=ff88bb">
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/ManuCoutinho/tech-quizz-app?color=ff88bb">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/ManuCoutinho/tech-quizz-app?color=ff88bb">
-  <img alt="License" src="https://img.shields.io/github/license/ManuCoutinho/tech-quizz-app?color=ff88bb">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/ManuCoutinho/certify_edu?color=56BEB8" /> -->
 
