@@ -5,3 +5,30 @@ content-type: application/json
     "technology": "JAVA",
     "email": "email@email.com"
 }
+
+###
+GET http://localhost:8085/questions/technology/JAVA HTTP/1.1
+content-type: application/json
+
+###
+POST http://localhost:8085/students/certification/answer HTTP/1.1
+content-type: application/json
+
+{
+    "email": "email@email.com",
+    "technology": "JAVA",
+    "questionsAnswers": [
+        {
+            "questionID": "c5f02721-6dc3-4fa6-b46d-6f2e8dca9c66",
+            "alternativeID": "98bf8d0f-dc1c-4db0-b09c-94246089aa02"
+        },
+        {
+            "questionID": "b0ec9e6b-721c-43c7-9432-4d0b6eb15b01",
+            "alternativeID": "f8e6e9b3-199b-4f0d-97ce-7e5bdc080da9"
+        },
+        {
+            "questionID": "f85e9434-1711-4e02-9f9e-7831aa5c743a",
+            "alternativeID": "63c0210c-2a9a-4e93-98ec-8d9f3984e2b0"
+        }
+    ]
+}

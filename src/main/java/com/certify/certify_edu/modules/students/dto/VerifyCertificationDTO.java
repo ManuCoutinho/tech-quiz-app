@@ -1,4 +1,4 @@
-package com.certify.certify_edu.modules.students.controllers.dto;
+package com.certify.certify_edu.modules.students.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
